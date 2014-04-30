@@ -1,0 +1,16 @@
+
+body{
+	text-align: center;
+	padding:50px;
+}
+#more{
+	display:none;
+}
+.link{
+	color: blue;
+	cursor:pointer;
+}
+.link:hover{
+	text-decoration: underline;
+}
+

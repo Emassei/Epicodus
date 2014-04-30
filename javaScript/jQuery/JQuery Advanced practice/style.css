@@ -1,0 +1,14 @@
+body{
+	padding:50px;
+	text-align: center
+}
+.link{
+	color: blue;
+	cursor: pointer;
+}
+.link:hover{
+	text-decoration: underline;
+}
+.hideme{
+	display: none;
+}
