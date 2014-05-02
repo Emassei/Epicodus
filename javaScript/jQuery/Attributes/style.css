@@ -1,0 +1,29 @@
+body{
+	padding: 50px;
+	text-align: center;
+}
+.green-background {
+	background-color: green;
+}
+.yellow-background{
+	background-color: yellow;
+}
+.red-background{
+	background-color: red;
+}
+.black-background{
+	background-color: black;
+}
+.text-white{
+	color: white;
+}
+.border{
+	border: solid black;
+	border-radius: 5px;
+}
+.highlight{
+	background: yellow;
+}
+p#high{
+	cursor: pointer;
+}

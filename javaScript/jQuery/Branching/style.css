@@ -1,0 +1,18 @@
+body{
+	padding: 50px;
+}
+#dark, #light{
+	margin: 0 auto;
+}
+.background-dark{
+	background-color: black;
+	color: white;
+}
+.background-light{
+	background-color: white;
+	color: black;
+}
+
+#drinks, #under-21{
+	display: none;
+}

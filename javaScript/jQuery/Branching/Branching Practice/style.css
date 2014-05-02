@@ -1,0 +1,14 @@
+body{
+	padding:50px;
+}
+.dark-background{
+	background-color: black;
+	color: white;
+}
+.light-background{
+	background-color: white;
+	color: black;
+}
+#turtles, #snakes, #bears{
+	display: none;
+}
