@@ -1,0 +1,14 @@
+body{
+	padding: 60px;
+}
+.container{
+	width: 500px;
+	clear: both;
+}
+.container input{
+	width: 100%;
+	clear: both;
+}
+#sub21-conservative, #over21-conservative, #sub21-aristocrat, #over21-aristocrat{
+	display: none;
+}

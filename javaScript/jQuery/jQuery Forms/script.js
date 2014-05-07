@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});
 });*/
 
-1. to make this clear, .append is different from .text, in that .append adds text, so that each time you apply the method, more and more text will always be applied, whereas .text replaces the prior text you placed into the field.
+/*1. to make this clear, .append is different from .text, in that .append adds text, so that each time you apply the method, more and more text will always be applied, whereas .text replaces the prior text you placed into the field.
 2. now onto this strange .submit(function(event) and the event.preventDefault.
    a. When the form is submited it runs a function called event: 
    	  function(event).
@@ -70,9 +70,9 @@ $(document).ready(function(){
    	  somewhere, but it is not going anywhere because these perameters have 
    	  not be set, no destination has been set.
    d. What we are doing is preventing the form from being sent somewhere thus
-   	  allowing it to be visible on the page.
+   	  allowing it to be visible on the page.*/
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	$('#blanks form').submit(function(event){
 		var person1Input = $("input#person1").val();
 		var person2Input = $("input#person2").val();
@@ -90,10 +90,71 @@ $(document).ready(function(){
 		$('.noun').text(nounInput);
 
 		$('#story').show();
+	
+	event.preventDefault();
+	});
+});*/
 
-		event.preventDefault();
+$(document).ready(function(){
+	$('#blanks form').submit(function(event){
+
+		var blanks = ["person1","person2","animal","exclamation","verb","noun"]
+		blanks.forEach(function(blank){
+			var userInput = $('input#' + blank).val();
+			$('.' + blank).text(userInput);
+		});
+
+		$('#story').show();
+
+		event.preventDefualt();
 	});
 });
 
 
+$(document).ready(function(){
+	$('#blanks form').submit(function(event){
+
+		var blanks = ['person1', 'person2', 'animal', 'exclamation','verb','noun'];
+		blanks.forEach(function(blank){
+			var userInput = $('input#' + blank).val();
+			$('.' + blank).text(userInput);
+		});
+
+		$('#story').show();
+
+		event.preventDefault();
+	})
+})
+
+$(document).ready(function(){
+	$('#blanks form').submit(function(event){
+
+		var blanks = ['person1', 'person2','animal','exclamation','verb','noun'];
+		blanks.forEach(function(blank){
+			var userInput = $('input#' + blank).val();
+			$('.' + blank).text(userInput);
+
+			$('#story').show();
+
+			event.preventDefault();
+		});
+	});
+});
+
+
+$(document).ready(function(){
+	$('#blanks form').submit(function(event){
+
+		var blanks = ['person1', 'person2', 'animal','exclamation','verb','noun'];
+		blanks.forEach(function(blank){
+
+			var userInput = $('input#' + blank).val();
+			$('.' + blank).text(userInput);
+
+			$('#story').show();
+
+			event.preventDefault();
+		})
+	})
+})
 

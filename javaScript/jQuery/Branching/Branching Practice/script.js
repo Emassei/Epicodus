@@ -7,6 +7,7 @@ $(function(){
 		$('body').removeClass();
 		$('body').addClass('light-background');
 	});
+	$()
 
 	var question = function(){
 	var animal = prompt("what is your favorite animal? turtles, snakes, or bears?").toUpperCase();
