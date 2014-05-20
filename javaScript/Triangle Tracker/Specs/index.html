@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Triangle Tracker</title>
+	<link rel="stylesheet" type="text/css" href="../../jqueryandbootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"> 
+				<H1>New Triangle</H1>
+				<form id="new-triangle">
+				  	<div class="form-group">
+					    <label for="side1">Side 1</label>
+					    <input type="text" class="form-control" id="side-1">
+					</div>
+					<div class="form-group">    
+					    <label for="side2">Side 2</label>
+					    <input type="text" class="form-control" id="side-2">
+					</div>
+					<div class="form-group">
+					    <label for="side3">Side 3</label>
+					    <input type="text" class="form-control" id="side-3">
+					</div>
+				    <button type="submit" class="btn btn-primary">What type of Triangle will it be?</button>
+				</form>
+			</div>
+			<div class="col-md-3" id="Equal-Triangle">
+				<h2>Equilateral Triangles</h2>
+				<ul id="E-Tri">
+
+				</ul>
+			</div>
+			<div class="col-md-3" id="Isosceles-Triangle">
+				<h2>Isosceles Triangles</h2>
+				<ul id="I-Tri">
+
+				</ul>
+			</div>
+			<div class="col-md-3" id="Scalene-Triangle">
+				<h2>Scalene Triangles</h2>	
+				<ul id="S-Tri">
+
+				</ul>
+			</div>
+		</div>	
+	</div>
+<script type="text/javascript" src="../../jqueryandbootstrap/jquery.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

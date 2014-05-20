@@ -10,7 +10,6 @@ var Address = {
 };
 
 $(document).ready(function(){
-
 	$('#add-address').click(function(){
 		$('#new-addresses').append( '<div class="new-address">'     +
 							            '<div class="form-group">' +
