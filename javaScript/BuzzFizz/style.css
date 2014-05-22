@@ -1,0 +1,21 @@
+body{
+	padding:50px;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	height: 350px;
+	color: white;
+	text-shadow: black 0.3em 0.3em 0.3em;
+	background: transparent;
+	background: url('C:/Users/User/Desktop/Inferno%20Viejo.jpg') no-repeat center center;
+}
+
+#num{
+	border: solid black;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+#sub{
+	margin-top:50px;
+}
