@@ -3,7 +3,7 @@ $(document).ready(function(){
 		event.preventDefault();
 
 		var inputtedBuzz = $('#buzzfizz-input').val();
-		parseInt(inputtedBuzz);
+		parseInt(inputtedBuzz,10);
 
 		var buzzFizzCalc = function(){
 			for(i=1;i<=inputtedBuzz;i++){
